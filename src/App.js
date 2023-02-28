@@ -1,6 +1,5 @@
 import React from 'react';
 import Main from './Main';
-import Person from './Person.js';
 import './App.css';
 
 class App extends React.Component {

@@ -1,5 +1,6 @@
 import React from 'react';
 import Person from './Person';
+import './Main.css';
 
 class Main extends React.Component {
 
