@@ -1,5 +1,7 @@
 import React from 'react';
+import Header from './Header';
 import Main from './Main';
+import data from './data.json';
 import './App.css';
 
 class App extends React.Component {
@@ -7,10 +9,8 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <header>
-          <h1>People of 301</h1>
-        </header>
-        <Main/>
+        <Header/>
+        <Main data={data}/>
         <footer>&copy; Code Fellows</footer>
       </>
     );
